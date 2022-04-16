@@ -2,10 +2,13 @@
 // Component Imports
 import MainHead from '../components/MainHead.astro';
 
+let title = 'Mark Fairweather';
+let description = 'The personal site of Mark Fairweather.';
+
 ---
 <html lang="en">
 	<head>
-		<MainHead />
+		<MainHead {title} {description} />
 	</head>
 	<body>
 		<h1>Mark Fairweather</h1>
