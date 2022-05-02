@@ -1,17 +1,12 @@
 ---
-// Component Imports
-import BaseHead from '../components/BaseHead.astro';
+// Layout Imports
+import BaseLayout from '../layouts/BaseLayout.astro';
 
-let title = 'Mark Fairweather';
-let description = 'The personal site of Mark Fairweather.';
-
+const title = "Mark Fairweather";
+const description = "The site of Mark Fairweather";
 ---
-<html lang="en">
-	<head>
-		<BaseHead {title} {description} />
-	</head>
-	<body>
-		<h1>Mark Fairweather</h1>
-		<h2>Personal site</h2>
-	</body>
-</html>
+
+<BaseLayout title={title} description={description}>
+	<h1>Mark Fairweather</h1>
+	<h2>Astro Site</h2>
+</BaseLayout>
