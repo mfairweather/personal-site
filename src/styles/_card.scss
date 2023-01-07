@@ -1,0 +1,23 @@
+.card {
+
+    width: 80vw;
+
+    @media screen and (min-width: 540px) {
+        width: 60vw;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 50vw;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 30vw;   
+    }
+
+    hr {
+        border: none;
+        background-color: #ccc;
+        height: 1px;
+        margin: 1.5rem 0;
+    }
+}

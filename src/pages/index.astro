@@ -1,13 +1,12 @@
 ---
+// Layout Imports
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card/Card.astro';
 
+const title = "Mark Fairweather";
+const description = "The site of Mark Fairweather";
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+
+<BaseLayout title={title} description={description}>
+	<Card />
+</BaseLayout>
