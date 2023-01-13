@@ -50,4 +50,19 @@ img {
 
 a {
 	text-decoration: none;
+	color: #0a6dd2;
+	font-weight: 600;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:visited {
+		color: #824fc1;
+	}
+
+	&:focus {
+		background-color: yellow;
+		outline: none;
+	}
 }
