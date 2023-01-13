@@ -1,12 +1,14 @@
 ---
 // Layout Imports
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Card from '../components/Card/Card.astro';
+import Intro from '../components/Intro/Intro.astro';
+import Links from '../components/LinkList/LinkList.astro';
 
 const title = "Mark Fairweather";
 const description = "The site of Mark Fairweather";
 ---
 
 <BaseLayout title={title} description={description}>
-	<Card />
+	<Intro />
+	<Links />
 </BaseLayout>
