@@ -1,7 +1,17 @@
 [
     {
+        "title": "Proxmox Full Course",
+        "url": "https://www.youtube.com/watch?v=LCjuiIswXGs&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo",
+        "date": "01.13.2023"
+    },
+    {
+        "title": "Proxmox Helper Scripts",
+        "url": "https://tteck.github.io/Proxmox/",
+        "date": "01.13.2023"
+    },
+    {
         "title": "The Style Guide for America's Highways: The Manual on Uniform Traffic Control Devices",
         "url": "https://www.beautifulpublicdata.com/the-style-guide-for-americas-highways-mutcd/",
-        "date": "01.13.2023"
+        "date": "01.11.2023"
     }
 ]

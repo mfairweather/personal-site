@@ -1,9 +1,12 @@
 ---
 import links from '../../data/links.json';
 ---
-
-<ul class="int-links">
-    {links.map((link) => (
-        <li><a href={link.url}>{link.title}</a><span>{link.date}</span></li>    
-    ))}
-</ul>
+<section class="links">
+    <hr>
+    <h3>Interesting Links</h3>
+    <ul class="int-links">
+        {links.map((link) => (
+            <li><a href={link.url}>{link.title}</a><span>{link.date}</span></li>    
+        ))}
+    </ul>
+</section>
