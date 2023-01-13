@@ -1,0 +1,28 @@
+.int-links {
+
+    border-bottom: 1px solid #ccc;
+
+    li {
+        display: flex;
+        border-top: 1px solid #ccc;
+        padding: 5px 0;
+
+        span {
+            font-family: ui-monospace, 
+                Menlo, Monaco, 
+                "Cascadia Mono", "Segoe UI Mono", 
+                "Roboto Mono", 
+                "Oxygen Mono", 
+                "Ubuntu Monospace", 
+                "Source Code Pro",
+                "Fira Mono", 
+                "Droid Sans Mono", 
+                "Courier New", monospace;
+            font-size: 0.75rem;
+            margin-left: auto;
+            color: #999;
+            line-height: 1.55rem;
+        }
+    }
+
+}
