@@ -2,11 +2,10 @@
 import links from '../../data/links.json';
 ---
 <section class="links">
-    <hr>
-    <h3>Interesting links</h3>
+    <h2>Interesting links</h2>
     <ul class="int-links">
         {links.map((link) => (
-            <li><a href={link.url}>{link.title}</a><span>{link.date}</span></li>    
+            <li><a href={link.url}>{link.title}</a><span>{link.date}</span></li>
         ))}
     </ul>
 </section>

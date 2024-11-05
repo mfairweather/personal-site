@@ -3,6 +3,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Intro from '../components/Intro/Intro.astro';
 import Links from '../components/LinkList/LinkList.astro';
+import About from '../components/About/About.astro';
+import Contact from '../components/Contact/Contact.astro';
 
 const title = "Mark Fairweather";
 const description = "The site of Mark Fairweather";
@@ -10,5 +12,7 @@ const description = "The site of Mark Fairweather";
 
 <BaseLayout title={title} description={description}>
 	<Intro />
+	<About />
 	<Links />
+	<Contact />
 </BaseLayout>

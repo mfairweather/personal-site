@@ -1,32 +1,24 @@
 .int-links {
 
-    border-bottom: 1px solid #ccc;
-
     li {
-        font-size: 0.85rem;
-        align-items: center;
-        border-top: 1px solid #ccc;
-        padding: 9px 0;
-
-        @media screen and (min-width: 768px) {
-            display: flex;
-            flex-direction: row;
-        }
+        font-size: 0.8rem;
+        padding: 0;
+        margin-bottom: 0.8rem;
 
         a {
-            margin-right: 30px;
+
         }
 
         span {
-            font-family: ui-monospace, 
-                Menlo, Monaco, 
-                "Cascadia Mono", "Segoe UI Mono", 
-                "Roboto Mono", 
-                "Oxygen Mono", 
-                "Ubuntu Monospace", 
+            font-family: ui-monospace,
+                Menlo, Monaco,
+                "Cascadia Mono", "Segoe UI Mono",
+                "Roboto Mono",
+                "Oxygen Mono",
+                "Ubuntu Monospace",
                 "Source Code Pro",
-                "Fira Mono", 
-                "Droid Sans Mono", 
+                "Fira Mono",
+                "Droid Sans Mono",
                 "Courier New", monospace;
             font-size: 0.75rem;
             margin-left: auto;
@@ -34,9 +26,6 @@
             display: block;
             line-height: 1.25rem;
 
-            @media screen and (min-width: 768px) {
-                display: initial;
-            }
         }
     }
 

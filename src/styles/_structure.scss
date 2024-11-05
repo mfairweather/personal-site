@@ -1,7 +1,7 @@
 section {
 
     width: 80vw;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
 
     &:first-of-type {
         padding-top: 40px;
@@ -30,7 +30,4 @@ section {
         margin: 1.5rem 0;
     }
 
-    &.links {
-        padding-bottom: 60px;
-    }
 }

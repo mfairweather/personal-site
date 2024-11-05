@@ -1,4 +1,4 @@
-@import 'base';
-@import 'container';
-@import 'structure';
-@import 'int-links';
+@forward 'base';
+@forward 'container';
+@forward 'structure';
+@forward 'int-links';
